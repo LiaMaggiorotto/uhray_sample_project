@@ -8,5 +8,52 @@
 
 
 body {
-    background-color: #ffffff;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Nav Bar */
+.navbar {
+    color:#fff;
+    background-color: #1a6283;
+    width: 100%;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-toggler {
+    padding: 0;
+}
+
+span.navbar-toggler-icon {
+    background-image: none !important;
+    width: 1em;
+}
+
+i.fas {
+    color: #dfdfdf;
+}
+
+.container-fluid {
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.notification {
+    width: 2rem;
+    height: 2.2rem;
+}
+
+#bell{
+    width: initial;
+    height: inherit;
+}
+
+.optionHeader {
+    font-weight: bold;
 }
