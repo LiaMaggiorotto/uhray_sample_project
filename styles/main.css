@@ -58,8 +58,6 @@ i.fas {
 }
 
 .side-collapse-container {
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -84,4 +82,11 @@ i.fas {
 
 .navbar .navbar-default {
     border-right: 1px solid #ddd;
+}
+
+/* Main */
+
+.py-5 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
 }
