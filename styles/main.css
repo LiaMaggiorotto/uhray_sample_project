@@ -14,6 +14,10 @@ body {
     align-items: center;
 }
 
+.container-fluid {
+    padding: 0%;
+}
+
 /* Nav Bar */
 
 .navbar {
@@ -21,6 +25,7 @@ body {
     background-color: #1a6283;
     width: 100%;
     border: none;
+    display: flex;
 }
 
 .navbar-toggle {
@@ -57,4 +62,26 @@ i.fas {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.side-collapse {
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    width: 256px;
+    position: fixed;
+    overflow: auto;
+    transition: all 0.6s cubic-bezier(.87, -.41, .19, 1.44);
+}
+
+.side-collapse.in {
+    width: 0;
+}
+
+.navbar-nav li.dropdown {
+    padding-right: 0;
+}
+
+.navbar .navbar-default {
+    border-right: 1px solid #ddd;
 }
