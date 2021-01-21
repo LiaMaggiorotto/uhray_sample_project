@@ -141,7 +141,7 @@ i.fas {
 .floating-bottom-nav {
     position: fixed;
     bottom: 30px;
-    left: 17px;
+    left: 25px;
     border-radius: 50%;
     border: none;
 }
