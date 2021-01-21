@@ -58,6 +58,8 @@ i.fas {
 }
 
 .side-collapse-container {
+    padding-right: .5rem;
+    padding-left: .5rem;
     margin-right: auto;
     margin-left: auto;
 }
@@ -87,6 +89,13 @@ i.fas {
 /* Main */
 
 .py-5 {
-    padding-top: 1rem!important;
-    padding-bottom: 1rem!important;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
 }
+
+.text-muted {
+    color: #000!important;
+    font-weight: 300;
+    font-size: 70%;
+}
+
