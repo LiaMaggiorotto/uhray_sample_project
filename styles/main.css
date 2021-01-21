@@ -58,8 +58,6 @@ i.fas {
 }
 
 .side-collapse-container {
-    padding-right: .5rem;
-    padding-left: .5rem;
     margin-right: auto;
     margin-left: auto;
 }
@@ -91,6 +89,25 @@ i.fas {
 .py-5 {
     padding-top: 0!important;
     padding-bottom: 0!important;
+}
+
+.card {
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+.card-img-top {
+    border-bottom: 1px #000 solid;
+}
+
+.image-text {
+    font-size: 30px;
+}
+
+.card-text {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    letter-spacing: -.5px;
 }
 
 .text-muted {
