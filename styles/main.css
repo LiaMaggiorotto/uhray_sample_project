@@ -30,9 +30,17 @@ body {
     padding: 0;
 }
 
+.navbar-toggler:focus {
+    outline: none;
+}
+
 span.navbar-toggler-icon {
     background-image: none !important;
     width: 1em;
+}
+
+span.navbar-toggler-icon:focus {
+    outline: none;
 }
 
 i.fas {
