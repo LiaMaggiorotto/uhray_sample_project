@@ -27,7 +27,7 @@
             <nav class="navbar navbar-fixed-top navbar-default">
                 
                     <div class="navbar-item">
-                        <button data-toggle="collapse-side" data-target=".side-collapse" type="button" class="navbar-toggle">
+                        <button data-toggle="collapse-side" data-target="#side-collapse-nav" type="button" class="navbar-toggle">
                             <span class="navbar-toggler-icon">
                                 <i class="fas fa-bars"></i>
                             </span>
@@ -36,7 +36,7 @@
                 
                     <div class="navbar-item">
                         <header class="navHeader">
-                            <!-- UPDATE: update to be option selected?? -->
+                            <!-- UPDATE: reconfigure to be option selected?? -->
                             <h4 class="optionHeader">Home</h4>              
                         </header>
                     </div>
@@ -50,7 +50,7 @@
                     
                 <!-- Collapsed Links in Nav -->
                 
-                <div class="navbar-default side-collapse in">
+                <div class="navbar-default side-collapse in" id="side-collapse-nav">
                     <nav role="navigation" class="navbar-collapse">
                         <ul class="nav navbar-nav">
 
@@ -58,6 +58,7 @@
                                 <a class="nav-link" aria-current="page" href="index.html">Home</a>
                             </li>
 
+                            <!-- Is this a drop down or displayed without a dropdown? -->
                             <li class="dropdown">  
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Page 1</a>
                                     <ul class="dropdown-menu">
@@ -92,7 +93,6 @@
                             <div class="card">
                                 
                                 <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                                    <rect width="100%" fill="#ffffff" height="100%"></rect>
                                     <text x="40%" y="55%" fill="#000000" class="image-text">Image</text>
                                 </svg>
                     
@@ -115,7 +115,6 @@
                             <div class="card">
                                 
                                 <svg class="bd-placeholder-img card-img-top" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                                    <rect width="100%" fill="#ffffff" height="100%"></rect>
                                     <text x="40%" y="55%" fill="#000000" class="image-text">Image</text>
                                 </svg>
                     
@@ -132,6 +131,12 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="floating-bottom-nav">
+                            <button type="button" data-toggle="modal" data-target="#createPostModal" title="Add an Article" class="add-article">
+                                <i class="fas fa-plus-circle"></i>
+                            </button>
                         </div>
 
 

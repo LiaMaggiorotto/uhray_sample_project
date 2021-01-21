@@ -159,3 +159,20 @@ rect::before {
 rect::after {
     transform: rotate(-45deg);
 }
+
+/* Add article button */
+
+.floating-bottom-nav {
+    position: fixed;
+    bottom: 30px;
+}
+
+.add-article {
+    border: transparent;
+    background: transparent;
+    border-radius: 50%;
+}
+
+i.fas.fa-plus-circle {
+    color: #fa7043;
+}
