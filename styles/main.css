@@ -45,6 +45,10 @@ body {
     border: none;
 }
 
+button:focus {
+    outline: none;  
+}
+
 i.fas.fa-bars {
     color: #dfdfdf;
 }
@@ -84,9 +88,24 @@ a.nav-link {
     font-size: 21px;
 }
 
+ul.subnav {
+    list-style-type: none;
+}
+
+li.subnav-item {
+    margin-bottom: 10px;
+}
+
+a.nav-sublink {
+    color: #fff;
+    font-size: larger;
+}
+
 .navbar-footer {
     padding-bottom: 25px;
+    margin-left: -50px;
 }
+
 
 /* Navbar transition 
 compliments of https://www.codeply.com/go/JPkcW2yWrB/bootstap-navbar-slide-left

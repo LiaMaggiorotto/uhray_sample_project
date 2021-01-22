@@ -53,11 +53,17 @@
                             </li>
                             
                             <!-- UPDATE: Is this a drop down or displayed without a dropdown? -->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Page 1</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                    <a class="dropdown-item" href="#">Subpage 1</a>
-                                    <a class="dropdown-item" href="#">Subpage 2</a>
+                            <li class="nav-item">
+                                <a class="nav-link"> Page 1</a>
+                                <div class="nav-sublink-options">
+                                    <ul class="subnav">
+                                        <li class="subnav-item">
+                                            <a class="nav-sublink" href="#">Subpage 1</a>
+                                        </li>
+                                        <li class="subnav-item">
+                                            <a class="nav-sublink" href="#">Subpage 2</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -69,10 +75,9 @@
                         </ul>
                         
                         <div class="navbar-footer">
-                            <small>Sign out <span class="signout-icon"><img src="./public/signOut.png" id="signOut"></span></small>
+                            <small class="signout">Sign out <span class="signout-icon"><img src="./public/signOut.png" id="signOut"></span></small>
                         </div>
-                        </div>
-
+                    </div>
                 </div>
             </nav>
 
