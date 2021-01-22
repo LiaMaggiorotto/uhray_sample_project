@@ -122,7 +122,7 @@ div.card-img-top::after {
     position: absolute;
     content: '';
     width: 112%;
-    height: 1px;
+    height: 1.25px;
     background-color: black;
     right: -22px;
 }
