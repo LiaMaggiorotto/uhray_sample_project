@@ -92,7 +92,6 @@ li.nav-item {
     position: relative;
 }
 
-li.nav-item:active::after,
 li.nav-item:active::before {
     content: "";
     position: absolute;
