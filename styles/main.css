@@ -63,23 +63,20 @@ i.fas.fa-bars {
     font-weight: bold;
 }
 
-.side-collapse-container {
-    margin-right: auto;
-    margin-left: auto;
+#signOut {
+    max-width: 15px;
+    max-height: 15px;
 }
 
-.side-collapse {
-    top: 50px;
-    bottom: 0;
-    left: 0;
-    width: 256px;
-    position: fixed;
-    overflow: auto;
-    transition: all 0.6s cubic-bezier(.87, -.41, .19, 1.44);
-}
 
 
 /* Main */
+
+.side-collapse-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 113px;
+}
 
 /* Card */
 

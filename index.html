@@ -24,7 +24,7 @@
         <div class="container-fluid">
         
         <!-- Nav Bar -->
-            <nav class="navbar navbar-dark">
+            <nav class="navbar navbar-dark fixed-top">
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler">
                         <i class="fas fa-bars fa-lg"></i>
@@ -45,31 +45,33 @@
                 </div>
 
                 <!-- collapsed nav -->
-                <div class="navbar-collapse collapse" id="navbarsExample01" style="">
-                    <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-
-                    <!-- UPDATE: Is this a drop down or displayed without a dropdown? -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Page 1</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">Subpage 1</a>
-                            <a class="dropdown-item" href="#">Subpage 2</a>
+                <div class="navbar-collapse collapse" id="navbarsExample01">
+                    <div class="navbar navbar-expand-lg navbar-dark sticky-left" id="navbar-two">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            
+                            <!-- UPDATE: Is this a drop down or displayed without a dropdown? -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Page 1</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                    <a class="dropdown-item" href="#">Subpage 1</a>
+                                    <a class="dropdown-item" href="#">Subpage 2</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page 3</a>
+                            </li>
+                        </ul>
+                        
+                        <div class="navbar-footer">
+                            <small>Sign out <span class="signout-icon"><img src="./public/signOut.png" id="signOut"></span></small>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Page 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Page 3</a>
-                        </li>
-                    </ul>
-
-                    <div class="navbar-footer">
-                        <small>Sign out <span class="signout-icon"><img src="styles/public/signOut Arrow.png"></span></small>
-                    </div>
+                        </div>
 
                 </div>
             </nav>
