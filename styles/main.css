@@ -68,14 +68,32 @@ i.fas.fa-bars {
     max-height: 15px;
 }
 
+#navbar-two {
+    display: flex;
+    flex-direction: column;
+    align-content: baseline;
+    justify-content: space-between;
+    min-height: 93vh;
+    color: #fff;
+    padding-left: 30px;
+}
+
+a.nav-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.navbar-footer {
+    padding-bottom: 25px;
+}
 
 /* Navbar transition 
 compliments of https://www.codeply.com/go/JPkcW2yWrB/bootstap-navbar-slide-left
 */
 .navbar-collapse {
     position: fixed;
-    top: 70px;
-    left: 0;
+    top: 68px;
     padding-right: 15px;
     padding-bottom: 15px;
     width: 75%;
